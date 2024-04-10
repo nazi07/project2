@@ -1,0 +1,112 @@
+
+/* nav bar design */
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+.container{
+    display: flex;
+}
+body{
+    background-color: rgb(137, 189, 209);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.container img{
+    border-radius: 30%;
+}
+.container p{
+    margin-top: 5rem;
+}
+span{
+    color: purple;
+}
+.container {
+    padding: 2rem;
+}
+.container img:hover{
+    border: 1px solid purple;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 23px;
+    border-radius: 40px;
+}
+.icons{
+    display: flex;
+    justify-items: right;
+
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-icons img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border-radius: 50%; /* To make the icons circular */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1); /* Increase the size of the icon on hover */
+  }
+
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .service {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .service img {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    display: block; 
+    margin: auto;
+  }
+  
+  .service h3 {
+    margin-top: 15px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+    color: #666;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
